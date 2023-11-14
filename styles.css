@@ -1,0 +1,212 @@
+body {
+    font-family: sans-serif;
+    /* background-color: brown; */
+    margin: 0;
+    padding: 0;
+  }
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* background-color: blue; */
+    padding: 25px;
+    width: 80%;
+    text-align: center;
+    color: #FCFCFC;
+    font-weight: 400;
+    margin: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    gap: 30px;
+    margin-top: 20px;
+    /* background-color: blueviolet; */
+  }
+
+h3 {
+    font-size: 22px;
+    margin: auto;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    width: 75%;
+    max-width: 540px;
+    text-align: center;
+    /* background-color: cornsilk; */
+  }
+
+.pricing-grid {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 255px);
+    grid-gap: 30px;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    padding-bottom: 75px;
+  }
+
+  hr {
+    border-top: 1px solid #D1D2D9;
+    width: 100%;
+    gap: 0px;
+    padding: 0;
+    margin: 0;
+  }
+
+.pricing-grid button {
+    font-family: 'Manrope', sans-serif;
+    width: 115px;
+    height: 38px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: 0;
+}
+
+
+.pricing-grid button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.pricing-grid p {
+    size: 14px;    
+}
+
+.price-tag {
+    font-size: 22px;
+}
+  
+.price {
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 15px;
+    border: 1px solid #FCFCFC;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+
+.price:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.03);
+    background-color: rgba(255, 255, 255, 0.2);}
+
+.circle-icon {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.icon {
+    width: 29.87px;
+    height: 29.87px;
+  }
+
+
+
+/* Plan specific colors */
+.bravo {
+    box-shadow: 0px 9px 30px 0px #FFB236A6;
+}
+.bravo-btn {
+    color:#EAB308;
+}
+.bravo-btn:hover{
+    box-shadow: 
+    0 0 10px 0 rgba(234, 179, 8, 0.5),
+    0 0 20px 0 rgba(234, 179, 8, 0.4),
+    0 0 30px 0 rgba(234, 179, 8, 0.3),
+    0 0 40px 0 rgba(234, 179, 8, 0.2),
+    0 0 50px 0 rgba(234, 179, 8, 0.1);
+}
+
+.alpha {
+    box-shadow: 0px 9px 30px 0px #F96332A6;
+}
+.alpha-btn {
+    color: #FCFCFC;
+    background-color: #EA580C;
+}
+.alpha-btn:hover{
+    box-shadow:
+  0 0 10px 0 rgba(234, 88, 12, 0.5),
+  0 0 20px 0 rgba(234, 88, 12, 0.4),
+  0 0 30px 0 rgba(234, 88, 12, 0.3),
+  0 0 40px 0 rgba(234, 88, 12, 0.2),
+  0 0 50px 0 rgba(234, 88, 12, 0.1);
+}
+
+.charlie {
+    box-shadow: 0px 9px 30px 0px #16C70DA6;
+}
+.charlie-btn {
+    color: #22C55E;
+}
+.charlie-btn:hover{
+    box-shadow:
+  0 0 10px 0 rgba(34, 197, 94, 0.5),
+  0 0 20px 0 rgba(34, 197, 94, 0.4),
+  0 0 30px 0 rgba(34, 197, 94, 0.3),
+  0 0 40px 0 rgba(34, 197, 94, 0.2),
+  0 0 50px 0 rgba(34, 197, 94, 0.1);
+}
+
+.extra {
+    box-shadow: 0px 9px 30px 0px #FF3636A6;
+}
+.extra-btn {
+    color: #EF4444
+}
+.extra-btn:hover{
+    box-shadow:
+  0 0 10px 0 rgba(239, 68, 68, 0.5),
+  0 0 20px 0 rgba(239, 68, 68, 0.4),
+  0 0 30px 0 rgba(239, 68, 68, 0.3),
+  0 0 40px 0 rgba(239, 68, 68, 0.2),
+  0 0 50px 0 rgba(239, 68, 68, 0.1);
+}
+
+
+.featured {
+    background-color: #FCFCFC;
+    color: #90949F
+}
+.featured h2 {
+    font-weight: 700;
+}
+.featured .price-tag{
+    color: #1C202E;
+}
+.featured:hover {
+    background-color: #FCFCFC; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+                0 0 20px rgba(255, 255, 255, 0.4),
+                0 0 30px rgba(255, 255, 255, 0.3),
+                0 0 40px rgba(255, 255, 255, 0.2),
+                0 0 50px rgba(255, 255, 255, 0.1);
+  }
+
