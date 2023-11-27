@@ -117,7 +117,6 @@ hr {
     width: 115px;
     height: 38px;
     border-radius: 50px;
-    margin-bottom: 15px;
     margin: 15px 0 15px 0;
     border: 0;
 }
@@ -162,13 +161,15 @@ hr {
 
 
 /* Plan specific colors */
-.bravo {
+.bravo .circle-icon {
     box-shadow: 0px 9px 30px 0px var(--bravo-circle-shadow);
 }
-.bravo-btn {
+
+.bravo button {
     color: var(--bravo);
 }
-.bravo-btn:hover{
+
+.bravo button:hover{
     box-shadow: 
     0 0 10px 0 var(--bravo-shadow, 0.5),
     0 0 20px 0 var(--bravo-shadow, 0.4),
@@ -177,14 +178,14 @@ hr {
     0 0 50px 0 var(--bravo-shadow, 0.1);
 }
 
-.alpha {
+.alpha .circle-icon{
     box-shadow: 0px 9px 30px 0px var(--alpha-circle-shadow);
 }
-.alpha-btn {
+.alpha button {
     color: var(--white);
     background-color: var(--alpha);
 }
-.alpha-btn:hover{
+.alpha button:hover{
     box-shadow:
   0 0 10px 0 var(--alpha-shadow, 0.5),
   0 0 20px 0 var(--alpha-shadow, 0.4),
@@ -193,13 +194,13 @@ hr {
   0 0 50px 0 var(--alpha-shadow, 0.1);
 }
 
-.charlie {
+.charlie .circle-icon{
     box-shadow: 0px 9px 30px 0px var(--charlie-circle-shadow);
 }
-.charlie-btn {
+.charlie button {
     color: var(--charlie);
 }
-.charlie-btn:hover{
+.charlie button:hover{
     box-shadow:
     0 0 10px 0 var(--charlie-shadow, 0.5),
     0 0 20px 0 var(--charlie-shadow, 0.4),
@@ -209,13 +210,13 @@ hr {
 }
 
 
-.extra {
+.extra .circle-icon{
     box-shadow: 0px 9px 30px 0px var(--extra-circle-shadow);
 }
-.extra-btn {
+.extra button{
     color: var(--extra)
 }
-.extra-btn:hover {
+.extra button:hover{
     box-shadow:
       0 0 10px 0 var(--extra-shadow, 0.5),
       0 0 20px 0 var(--extra-shadow, 0.4),
